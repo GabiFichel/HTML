@@ -1,0 +1,1 @@
+Ao final do primeiro semestre do curso técnico de Análise e Desenvolvimento de Sistemas do SENAI, começamos a desenvolver as linguagens css e javascript, juntamente da organização de estrutura do HTML.
