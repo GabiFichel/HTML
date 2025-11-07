@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Missão CSS - Apresentação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="slide active">
+    <h1>Missão CSS</h1>
+    <h2>Atividade Diagnóstica</h2>
+    <p>Por: Lucca Moreira e Maria Gabriela</p>
+  </div>
+
+  <div class="slide">
+    <h1>O "Que" é CSS?</h1>
+    <p>CSS significa <strong>Cascading Style Sheets</strong> (Folhas de Estilo em Cascata).</p>
+    <p>Sua função é estilizar e modificar a aparência de sites escritos em HTML.</p>
+    <p>Analogia: o CSS é o “acabamento” da casa — cores, móveis e piso — enquanto o HTML é a estrutura.</p>
+  </div>
+
+  <div class="slide">
+    <h1>O "Chefe" da Web</h1>
+    <p><strong>W3C</strong> (World Wide Web Consortium) é quem define as regras da web.</p>
+    <p>Validar o código significa verificar se ele segue as normas do W3C, garantindo compatibilidade entre navegadores.</p>
+  </div>
+
+  <div class="slide">
+    <h1>As 3 Formas de Usar CSS</h1>
+    <p><strong>Inline:</strong> Dentro do próprio elemento HTML.</p>
+    <p><strong>Interna:</strong> Dentro da tag &lt;style&gt; no &lt;head&gt;.</p>
+    <p><strong>Externa:</strong> Em um arquivo separado (.css) linkado com &lt;link&gt;.</p>
+  </div>
+
+  <div class="slide">
+    <h1>A "Receita" do CSS</h1>
+    <p><strong>Seletor:</strong> Indica o elemento HTML que será estilizado.</p>
+    <p><strong>Propriedade:</strong> O que será alterado (ex: color, font-size).</p>
+    <p><strong>Valor:</strong> Como será alterado (ex: blue, 24px).</p>
+  </div>
+
+  <div class="slide">
+    <h1>A "Mira" — Seletores Principais</h1>
+    <p><strong>Tag:</strong> Altera todos os elementos de um tipo.</p>
+    <p><strong>ID:</strong> Altera um único elemento específico.</p>
+    <p><strong>Classe:</strong> Pode ser usada em vários elementos.</p>
+    <p><strong>Universal (*):</strong> Afeta todos os elementos da página.</p>
+  </div>
+
+  <div class="slide">
+    <h1>Exemplo de Agrupamento</h1>
+    <p>Use vírgulas para aplicar o mesmo estilo a vários seletores:</p>
+    <pre><code>h1, h2, h3 {
+  color: #333;
+  border-bottom: 2px solid #ccc;
+}</code></pre>
+  </div>
+
+  <div class="slide">
+    <h1>Fim 🎉</h1>
+  </div>
+
+  <div class="controls">
+    <button id="prevBtn">⬅ Voltar</button>
+    <span class="indicator" id="indicator">Slide 1 de 8</span>
+    <button id="nextBtn">Próximo ➡</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
