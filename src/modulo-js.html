@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <title>Módulo 3: JavaScript — Front-End Intensivasso</title>
+ </head>
+ <body class="min-h-screen bg-slate-950 text-slate-100">
+   <!-- Cabeçalho -->
+   <header class="border-b border-slate-800 bg-slate-900">
+     <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
+       <div class="flex items-center gap-3">
+         <span class="inline-block h-10 w-10 rounded-lg bg-purple-500"></span>
+         <div>
+           <h1 class="text-lg font-medium">Front-End DIFÍCHEL</h1>
+           <p class="text-sm text-slate-400">Curso On-line de Desenvolvimento de Sistema</p>
+         </div>
+       </div>
+
+       <nav>
+         <ul class="flex items-center gap-6 text-sm font-medium text-slate-200">
+           <li><a href="./index.html" class="hover:text-white">Início</a></li>
+           <li><a href="./index.html#modulos" class="hover:text-white">Módulos</a></li>
+           <li><a href="./index.html#contato" class="hover:text-white">Contato</a></li>
+         </ul>
+       </nav>
+     </div>
+   </header>
+
+   <main class="mx-auto max-w-6xl px-4 py-14">
+     <section class="rounded-3xl bg-linear-to-r from-purple-900 via-purple-700 to-purple-600 px-6 py-14 text-white shadow-lg shadow-black/30">
+       <div class="mx-auto max-w-3xl text-center">
+         <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">Módulo 3: JavaScript</h2>
+         <p class="mt-5 text-base leading-relaxed text-slate-200 sm:text-lg">
+           Domine a lógica por trás das interações na web, manipule o DOM e use APIs modernas para construir experiências ricas.
+         </p>
+         <div class="mt-8 flex justify-center gap-3 flex-wrap">
+           <a
+             href="./index.html"
+             class="inline-flex items-center justify-center rounded-full bg-purple-600 px-8 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-purple-500"
+           >
+             Voltar ao Início
+           </a>
+           <a
+             href="./modulo-html.html"
+             class="inline-flex items-center justify-center rounded-full border border-purple-500/30 bg-purple-900/20 px-8 py-3 text-sm font-semibold text-purple-100 shadow-sm transition-colors hover:bg-purple-900/30"
+           >
+             Ver HTML
+           </a>
+         </div>
+       </div>
+     </section>
+
+     <section class="mt-16">
+       <div class="grid gap-10 lg:grid-cols-2">
+         <div>
+           <h3 class="text-2xl font-semibold text-white">O que você verá neste módulo</h3>
+           <ul class="mt-6 space-y-4 text-slate-400">
+             <li class="flex gap-3">
+               <span class="mt-1 inline-flex h-3 w-3 items-center justify-center rounded-full bg-purple-500"></span>
+               <span><strong>Interatividade:</strong> evento, manipulação do DOM e atualizações em tempo real.</span>
+             </li>
+             <li class="flex gap-3">
+               <span class="mt-1 inline-flex h-3 w-3 items-center justify-center rounded-full bg-purple-500"></span>
+               <span><strong>APIs modernas:</strong> Fetch, Promises e async/await.</span>
+             </li>
+             <li class="flex gap-3">
+               <span class="mt-1 inline-flex h-3 w-3 items-center justify-center rounded-full bg-purple-500"></span>
+               <span><strong>ES Modules:</strong> organização de código e reutilização.</span>
+             </li>
+             <li class="flex gap-3">
+               <span class="mt-1 inline-flex h-3 w-3 items-center justify-center rounded-full bg-purple-500"></span>
+               <span><strong>Ferramentas de build:</strong> introdução ao bundlers e automação.</span>
+             </li>
+           </ul>
+         </div>
+
+         <div class="rounded-3xl border border-slate-800 bg-slate-900 p-8 shadow-sm">
+           <h4 class="text-xl font-semibold text-white">Projetos práticos</h4>
+           <p class="mt-3 text-slate-400">
+             Coloque a mão na massa com exemplos que realmente funcionam — interfaces dinâmicas, consumo de APIs e comportamento interativo.
+           </p>
+           <div class="mt-6 space-y-4">
+             <div class="rounded-xl bg-slate-950/50 p-4">
+               <p class="text-sm font-medium text-slate-100">Projeto 1</p>
+               <p class="text-sm text-slate-300">Criar uma galeria de imagens dinâmica com filtros e carregamento sob demanda.</p>
+             </div>
+             <div class="rounded-xl bg-slate-950/50 p-4">
+               <p class="text-sm font-medium text-slate-100">Projeto 2</p>
+               <p class="text-sm text-slate-300">Consumir uma API pública com fetch e mostrar resultados em um painel interativo.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <footer id="contato" class="mt-16 border-t border-slate-800 pt-10 text-center text-sm text-slate-400">
+        <p>© 2026 Front-End DIFÍCHEL. Todos os direitos reservados.</p>
+        <p class="mt-2">Feito especialmente para quem quer aprender a construir a web.</p>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <title>Front-End Intensivasso</title>
+</head>
+  <body class="min-h-screen bg-slate-950 text-slate-100">
+    <header class="border-b border-slate-800 bg-slate-900">
+      <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
+        <div class="flex items-center gap-3">
+          <span class="inline-block h-10 w-10 rounded-lg bg-purple-500"></span>
+          <div>
+            <h1 class="text-lg font-medium">Front-End DIFÍCHEL</h1>
+            <p class="text-sm text-slate-400">Curso On-line de Desenvolvimento de Sistema</p>
+          </div>
+        </div>
+
+        <nav>
+          <ul class="flex items-center gap-6 text-sm font-medium text-slate-200">
+            <li><a href="#hero" class="hover:text-white">Início</a></li>
+            <li><a href="#modulos" class="hover:text-white">Módulos</a></li>
+            <li><a href="#contato" class="hover:text-white">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4 py-14">
+      <section id="hero" class="rounded-3xl bg-linear-to-r from-purple-900 via-purple-700 to-purple-600 px-6 py-14 text-white shadow-lg shadow-black/30">
+        <div class="mx-auto max-w-3xl text-center">
+          <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">Front-End do zero ao avançado!</h2>
+          <p class="mt-5 text-base leading-relaxed text-slate-200 sm:text-lg">
+            Aprenda HTML, CSS e JavaScript com uma nova metodologia de estudos e criação de projetos.
+          </p>
+          <div class="mt-8 flex justify-center">
+            <a
+              href="#modulos"
+              class="inline-flex items-center justify-center rounded-full bg-purple-600 px-8 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-purple-500"
+            >
+              Saiba Mais
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="modulos" class="mt-16">
+        <div class="text-center">
+          <h3 class="text-2xl font-semibold">Conteúdos Oferecidos no Curso.</h3>
+          <p class="mt-3 text-slate-400">
+            Três módulos para dominar front-end e capacitar profissionais.
+          </p>
+        </div>
+
+        <div class="mt-10 grid gap-6 md:grid-cols-3">
+          <article class="rounded-2xl border border-slate-800 bg-slate-900 p-6 shadow-sm transition hover:shadow-lg">
+            <div class="flex items-center gap-4">
+              <img src="./img/html.png" alt="HTML" class="h-12 w-12" />
+              <h4 class="text-xl font-semibold">Módulo 1: HTML</h4>
+            </div>
+            <p class="mt-3 text-slate-300">
+              É a base de tudo — você aprende a montar a estrutura da página.
+            </p>
+            <div class="mt-5 inline-flex items-center gap-2 text-sm font-medium text-purple-200">
+              <span class="inline-block h-2 w-2 rounded-full bg-purple-500"></span>Semântica e estrutura.
+            </div>
+            <div class="mt-6">
+              <a href="./modulo-html.html" class="inline-flex items-center justify-center rounded-full bg-purple-600 px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-purple-500">
+                Vizualizar
+              </a>
+            </div>
+          </article>
+
+          <article class="rounded-2xl border border-slate-800 bg-slate-900 p-6 shadow-sm transition hover:shadow-lg">
+            <div class="flex items-center gap-4">
+              <img src="./img/css.png" alt="CSS" class="h-12 w-12" />
+              <h4 class="text-xl font-semibold">Módulo 2: CSS</h4>
+            </div>
+            <p class="mt-3 text-slate-300">
+              Responsividade, Grid, animações e uma biblioteca de componentes que você pode usar para criar uma interface.
+            </p>
+            <div class="mt-5 inline-flex items-center gap-2 text-sm font-medium text-purple-200">
+              <span class="inline-block h-2 w-2 rounded-full bg-purple-500"></span>Design moderno e responsivo
+            </div>
+            <div class="mt-6">
+              <a href="./modulo-css.html" class="inline-flex items-center justify-center rounded-full bg-purple-600 px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-purple-500">
+                Vizualizar
+              </a>
+            </div>
+          </article>
+
+          <article class="rounded-2xl border border-slate-800 bg-slate-900 p-6 shadow-sm transition hover:shadow-lg">
+            <div class="flex items-center gap-4">
+              <img src="./img/js.png" alt="JavaScript" class="h-12 w-12" />
+              <h4 class="text-xl font-semibold">Módulo 3: JavaScript</h4>
+            </div>
+            <p class="mt-3 text-slate-300">
+              Interatividade e conceitos modernos como ES Modules e ferramentas de build.
+            </p>
+            <div class="mt-5 inline-flex items-center gap-2 text-sm font-medium text-purple-200">
+              <span class="inline-block h-2 w-2 rounded-full bg-purple-500"></span>Ações e lógica em tempo real
+            </div>
+            <div class="mt-6">
+              <a href="./modulo-js.html" class="inline-flex items-center justify-center rounded-full bg-purple-600 px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-purple-500">
+                Vizualizar
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      
+      <footer id="contato" class="mt-16 border-t border-slate-800 pt-10 text-center text-sm text-slate-400">
+        <p>© 2026 Front-End DIFÍCHEL. Todos os direitos reservados.</p>
+        <p class="mt-2">Feito especialmente para quem quer aprender a construir a web.</p>
+      </footer>
+    </main>
+  </body>
+</html>
